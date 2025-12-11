@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.11/lib/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.11/addons/p5.sound.min.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+    <style>
+      /* Стиль для посилань */
+      #links {
+        position: absolute; /* поверх canvas */
+        left: 117px;       /* X позиція */
+        top: 4656px;        /* Y позиція */
+        font-family: 'Agdasima', sans-serif; /* body3 */
+        font-size: 15px;
+        letter-spacing: 3px;
+        color: white;
+        white-space: nowrap;
+      }
+
+      #links a {
+        color: white;
+        text-decoration: none;
+        margin-right: 20px;
+      }
+
+      #links a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <main></main>
+
+    <!-- HTML блок для гіперпосилань -->
+    <div id="links">
+      <a href="https://www.operator.la/human-unreadable" target="_blank">operator duo</a>  
+      <a href="https://www.artblocks.io/marketplace/collections/human-unreadable-by-operator?tab=" target="_blank">artblock collection</a>
+    </div>
+
+    <script src="sketch.js"></script>
+  </body>
+</html>
